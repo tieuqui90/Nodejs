@@ -4,7 +4,7 @@
   "description": "nodejs co ban",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [
     "Node",
@@ -12,5 +12,9 @@
     "Javascript"
   ],
   "author": "diuxinhdep",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
 }
