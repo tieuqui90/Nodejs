@@ -4,7 +4,7 @@
   "description": "nodejs co ban",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": " Set NODE_ENV= dev && nodemon app.js"
   },
   "keywords": [
     "Node",
@@ -14,6 +14,8 @@
   "author": "diuxinhdep",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.13"
   }
