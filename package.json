@@ -4,7 +4,8 @@
   "description": "nodejs co ban",
   "main": "app.js",
   "scripts": {
-    "start": " Set NODE_ENV= dev && nodemon app.js"
+    "start": "nodemon dist/app.js",
+    "dev": "tsc -w"
   },
   "keywords": [
     "Node",
@@ -17,6 +18,15 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "nodemon": "^2.0.13"
+    "mssql": "^7.2.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.38"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.10.2",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.3"
   }
 }
